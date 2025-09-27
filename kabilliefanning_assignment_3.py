@@ -165,17 +165,24 @@ print(f"Final Stress Level: {stress_level}")
 
 # Generate 3+ different endings based on accumulated stats (5 endings total)
 if current_gpa >= 3.5 and stress_level <= 50:
-    print("\nEnding 1: The 'Dean's List Superstar' 🌟")
+    print("\nEnding 1: The 'Dean's List Superstar' ")
     print("Perfect balance! High GPA, low stress. You mastered college life.")
 elif current_gpa >= 3.0 and social_points >= 60:
-    print("\nEnding 2: The 'Well-Rounded Champion' 🤝")
+    print("\nEnding 2: The 'Well-Rounded Champion' ")
     print("Good GPA and a strong social life. You're set up for success outside of school too.")
 elif stress_level > 80:
-    print("\nEnding 3: The 'Burnout Blues' 🤕")
+    print("\nEnding 3: The 'Burnout Blues' ")
     print("Your stress level is critical. You need a long break. Your efforts were unsustainable.")
 elif current_gpa < 2.5:
-    print("\nEnding 4: The 'Academic Probation' ⚠️")
+    print("\nEnding 4: The 'Academic Probation' ")
     print("Your GPA is too low. You have to work on your study habits for next semester.")
 else:
-    print("\nEnding 5: The 'Just Made It' ✅")
+    print("\nEnding 5: The 'Just Made It' ")
+
     print("You passed. It wasn't pretty, but you survived the semester. Learn from your choices.")
+
+git add kabilliefanning_assignment_3.py
+git commit -m "Pass Test Case 4: Complete assessment with all concepts and multiple endings"
+
+git add README.md
+git commit -m "Add professional documentation"
